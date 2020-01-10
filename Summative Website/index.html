@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<title>Hallway Navigator</title>
+<script src="Chicken Slayer Z Website/JAVASCRIPT/slideshow.js"></script>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button lgimg-1">Hallway Navigator </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+</div>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-gamepad"></i> WEBSITE NAVIGATOR</a>
+      <a href="#screenshots" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> MOBILE  INFO</a>
+      <a href="#worldmessage" class="w3-bar-item w3-button"><i class="fa fa-globe"></i> WORLD MESSAGE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#screenshots" onclick="w3_close()" class="w3-bar-item w3-button">SCREENSHOTS</a>
+  <a href="#storyline" onclick="w3_close()" class="w3-bar-item w3-button">MOBILE  INFO</a>
+  <a href="#worldmessage" onclick="w3_close()" class="w3-bar-item w3-button"></i> WORLD MESSAGE</a>
+  <a href="#references" onclick="w3_close()" class="w3-bar-item w3-button"></i> REFERENCES</a>
+</nav>
+
+<!-- Header with full-height image -->
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE HALLWAY NAVIGATOR</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <iframe height="400px" width="100%" src="https://repl.it/@Daniel_Buwah_Bu/Summative4?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
+        <img src="file:///C:/Users/mrsup/Pictures/LogoMakr_6t1sUU.png" width="515" height="300">
+      </a>
+      <p class="w3-large">Online Interface</p>
+      <p>Click the image for the online interface where you can use Hallway Navigators from your internet browser.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/mrsup/Pictures/LogoMakr_0K1M4G.png" width="515" height="300">
+      <p class="w3-large">Mobile Application</p>
+      <p>Click the image for imformation on how you can downlaod the application for your mobile device.</p>
+  </div>
+</div>
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team2.jpg" alt="Daniel" style="width:100%">
+        <div class="w3-container">
+          <h3>Daniel Buwah</h3>
+          <p class="w3-opacity">Website Developer & Application Integrater</p>
+          <p>Daniel Buwah was given the task to develop the website and integrate the python coded program into the website itsself.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 597944@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team1.jpg" alt="Patrick" style="width:100%">
+        <div class="w3-container">
+          <h3>Patrick Pineda</h3>
+          <p class="w3-opacity">Application Developer</p>
+          <p>Patrick Pineda served as the leader in the development of the application, he created aglorithims to search for the quickest path to your destination and ensured the output read to the user was understandable and clear.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 595243@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team3.jpg" alt="Shakir" style="width:100%">
+        <div class="w3-container">
+          <h3>Shakir Rahman</h3>
+          <p class="w3-opacity">Application Integrater & Application Developer</p>
+          <p>Shakir  lead the integration of the python based code into a mobile application usable for all users who which to use Hallway Navigator on the Go and/or are unable to access the website in their current situation.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 597944@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team4.jpg" alt="Labeed" style="width:100%">
+        <div class="w3-container">
+          <h3>Labeen Hassan</h3>
+          <p class="w3-opacity">Organizer & Collaborater</p>
+          <p>Labeed helped organize the teams tasks and also helped with all aspects of the development of Hallway Navigators, by playing a support role for the team while ensuring the team is on schedule labeen played an important role to the development stages.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 571775@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">1000+ Years Across All Team Members</span>
+    <br>Collabrative Hours
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">20 Years Across All Team Members</span>
+    <br>Years of Organization Experience 
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">9 Years Across All Team Members</span>
+    <br>Years of Programing Experience
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>The team who presents you with Hallway Navigator is a group of skilled members in their craft.</p>
+      <p>With skills ranging from organizational skills, coding skills and further talents the group succesfully created a working application. This team took a big idea and made it a reality through hardwark, dedication, and determination to bring the best user experience the group could give.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-gamepad w3-margin-right"></i>Game Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:70%">70%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:80%">80%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Screenshots Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="screenshots">
+  <h3>SCREENSHOTS</h3>
+  <p class="w3-large">What our game looks like</p>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/MainMenuSS.JPG" style="width:100%">
+      <div class="text">Main Menu Screen</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/Stage1SS.JPG" style="width:100%">
+      <div class="text">Entry to Caf</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/Stage2SS.JPG" style="width:100%">
+      <div class="text">Gym B to Entry</div>
+    </div>
+    
+     <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/Stage3SS.JPG" style="width:100%">
+      <div class="text">Caf to Gym A</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+</div>
+
+<!-- World Message Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="worldmessage">
+  <h3>World Message</h3>
+</div>
+</body>
+</html>
